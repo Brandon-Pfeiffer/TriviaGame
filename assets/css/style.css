@@ -1,0 +1,97 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+}
+
+body{
+	height: 100%;
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 16px;
+}
+
+section {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+#banner{
+	height: 150px;
+}
+
+#banner, .choice{
+	background: grey;
+	border: 10px solid black;
+}
+
+#qText{
+	background: lightgrey;
+	opacity: 0.9;
+	font-size: 30px;
+	border-radius: 25px;
+}
+
+.qArea {
+	font-size: 16px;
+}
+
+.qAreaText {
+	height: 100px;
+
+}
+
+#timerText{
+	border-radius: 25px;
+	background: grey;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 65px;
+}
+
+#banner{
+	text-align: center;
+}
+
+.responseImg{
+	margin-top: 10px;
+	width: 20%;
+	max-height: 100%;
+}
+
+#logo, .logo{
+	width: 100%;
+	height: 125px;
+}
+
+#answerArea{
+	text-align: center;
+}
+
+.choice {
+	height: 175px;
+	width: 29%;
+	display: inline-block;
+	border-radius: 25px;
+	vertical-align: top;
+}
+
+.choiceText{
+	height: 23%;
+	width: 100%;
+	font-size: 16px;
+}
+
+.choiceImg{
+	height: 70%;
+	width: 100%;
+}
+
+#choice1{
+	margin: 0px 8px 0px 8px;
+}
